@@ -1,9 +1,11 @@
 import React from 'react';
+import List from './List';
 
 function App() {
   return (
     <div>
-      <p>App.js component</p>
+      <h1>Welcome</h1>
+      <List title='Title Here' />
     </div>
   );
 }
